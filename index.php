@@ -5,8 +5,12 @@
 	<main>
 		<div class="">
 			<section class="">
-				<p>You are logged out.</p>
-				<p>You are logged in.</p>
+				<?php
+					if (isset($_SESSION['userid'])) {
+						echo '<p>You are logged in.</p>';
+					}
+					echo '<p>You are logged out.</p>';
+				?>
 			</section>
 		</div>
 	</main>
