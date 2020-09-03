@@ -3,7 +3,7 @@
 ?>
 
 	<main>
-		<div class="">
+		<div class="body">
 			<section class="">
 				<?php
 					if (isset($_SESSION['userid'])) {

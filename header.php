@@ -5,7 +5,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>InScope</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<header>
@@ -13,14 +14,10 @@
 			<a href="#">
 				<img src="img/gemini logo.png">
 			</a>
-			<ul>
-				<li><a href="Home"></a></li>
-				<li><a href="Feed"></a></li>
-				<li><a href="Explore"></a></li>
-				<li><a href="Near me"></a></li>
-				<li><a href="Contact"></a></li>
-			</ul>
-			<div>
+				<!--<li><a href="">Home</a></li>-->
+				<!--<li><a href="">Feed</a></li> -->
+				<!--<li><a href="">Explore</a></li>-->
+			<div class="header">
 				<?php
 					if (isset($_SESSION['userid'])) {
 						echo '<form action="includes/logoutUsers.php" method="post">
